@@ -1,7 +1,7 @@
 {
-  "name": "ews-javascript-api",
-  "version": "0.13.2",
-  "private": true,
+  "name": "@victor-nerd/ews-javascript-api",
+  "version": "0.1.0",
+  "private": false,
   "description": "EWS Managed api in JavaScript",
   "main": "js/ExchangeWebService.js",
   "scripts": {
