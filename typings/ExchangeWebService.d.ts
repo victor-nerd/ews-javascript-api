@@ -20878,10 +20878,7 @@ export interface TaskSchemaStatic extends TaskSchema {
 /**
  * BootStrap code. to initializes some class to avoid circular reference.
  */
-/** XHR setup */
-/** TimeZoneTransitions */
-/**#endregion BootStrap code */
- module StringHelper {
+/** XHR setup *//** TimeZoneTransitions *//**#endregion BootStrap code */ module StringHelper {
     function IsNullOrEmpty(str: string): boolean;
     function Format(source: string, ...args: any[]): string;
     var Empty: string;
@@ -22792,8 +22789,7 @@ export interface ResponseHeaderDelegate {
      * internal set
      */
     Exception: Exception;
-}
-/**
+}/**
  * Represents the definition of an extended property.
  */
  class ExtendedPropertyDefinition extends PropertyDefinitionBase {
@@ -24903,8 +24899,7 @@ export interface ISearchFilterCollection {
     static ParseString(url: string): ParsedUrl;
     static UriSchemeHttp: string;
     static UriSchemeHttps: string;
-}
- class XHRFactory {
+} class XHRFactory {
     static xhrHelper: IXHRApi;
     static get XHRApi(): IXHRApi;
 }
